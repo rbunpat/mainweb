@@ -51,21 +51,21 @@
 
             <ProjectCard
             title="Jiwwongrapher"
-            description="A web application that helps you navigate through your staffs' information."
+            description="Jiwwongrapher's Portfolio Website"
             techStack={["svelte", "typescript", "tailwindcss", "vercel", "cloudflare"]}
             liveLink="https://jiw.rachatat.com/"
             />
     
             <ProjectCard
             title="Jiwwongrapher Store"
-            description="A web application that helps you navigate through your staffs' information."
+            description="Jiwwongrapher's web store for selling digital pictures"
             techStack={["svelte", "typescript", "tailwindcss", "postgrtesql", "prisma", "cloudflare"]}
             liveLink="https://jiw-prod.rachatat.com/"
             />
 
             <ProjectCard
             title="BuddyBudder"
-            description="A web application that helps you navigate through your staffs' information."
+            description="A web application that helps you and your friends share requests anonymously"
             techStack={["svelte", "typescript", "prisma", "supabase", "vercel", "cloudflare"]}
             githubLink="https://github.com/rbunpat/buddybudder"
             />
