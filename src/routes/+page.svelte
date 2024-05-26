@@ -19,7 +19,9 @@
             <h1 class="text-4xl md:text-6xl text-slate-100 montserrat-regular">I'm</h1>
             <h1 class="text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 montserrat-semibold">&nbsp;Rachatat Bunpat</h1>
         </div>
-        <p class="text-lg md:text-xl text-slate-100 montserrat-regular mt-4">I'm a student in Grade 12 at <a href="https://www.st.ac.th/" target="_blank" class=" text-emerald-400 hover:underline">Suratthani School</a></p>
+        <p class="hidden md:block text-lg md:text-xl text-slate-100 montserrat-regular mt-4">I'm a student in Grade 12 at <a href="https://www.st.ac.th/" target="_blank" class=" text-emerald-400 hover:underline">Suratthani School</a></p>
+        <p class="md:hidden text-lg md:text-xl text-slate-100 montserrat-regular mt-4">I'm a student in Grade 12 at</p>
+        <p class="md:hidden text-lg md:text-xl text-slate-100 montserrat-regular mt-4"><a href="https://www.st.ac.th/" target="_blank" class=" text-emerald-400 hover:underline">Suratthani School</a></p>
         <p class="text-lg md:text-xl text-slate-100 montserrat-regular mt-4">I also do, uhh, stuff ¯\_(ツ)_/¯</p>
 
     </div>
