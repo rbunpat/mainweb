@@ -27,11 +27,11 @@
 >
 	<div class="flex flex-row items-center">
 		<a href="/">
-			<h1 class="text-lg md:text-xl font-semibold text-slate-100">Rachatat Bunpat</h1>
+			<h1 class="text-md md:text-xl font-semibold text-slate-100">Rachatat Bunpat</h1>
 		</a>
 	</div>
 	<div class="flex flex-row">
-		<div class="ml-5 flex flex-row gap-3 text-lg md:text-xl">
+		<div class="ml-5 flex flex-row gap-3 text-md md:text-xl">
 			<a href="/">
 				<p class:active={routeId === '/'} class="text-slate-300 transition-all hover:text-slate-50">
 					Home
