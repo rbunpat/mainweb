@@ -9,7 +9,7 @@
 	$: routeId = $page.route.id;
 
 	NProgress.configure({
-		minimum: 0.16
+		minimum: 0.16,
 	});
 
 	$: {
@@ -27,7 +27,7 @@
 >
 	<div class="flex flex-row items-center">
 		<a href="/">
-			<h1 class="text-xl font-semibold text-slate-100">Rachatat Bunpat</h1>
+			<h1 class="text-lg md:text-xl font-semibold text-slate-100">Rachatat Bunpat</h1>
 		</a>
 	</div>
 	<div class="flex flex-row">
