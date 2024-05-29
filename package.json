@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tryghost/content-api": "^1.11.21",
 		"lucide-svelte": "^0.379.0",
 		"svelte-inview": "^4.0.2"
 	}
