@@ -10,6 +10,7 @@
 
 	NProgress.configure({
 		minimum: 0.16,
+		showSpinner: false
 	});
 
 	$: {
@@ -21,7 +22,6 @@
 		}
 	}
 </script>
-<!-- trigger new build -->
 
 <div
 	class="sticky top-0 z-50 flex w-full flex-row justify-between border-b border-slate-700 bg-slate-950 bg-opacity-10 p-5 backdrop-blur-lg"
