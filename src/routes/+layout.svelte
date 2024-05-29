@@ -1,9 +1,25 @@
 <script lang="ts">
 	import '../app.css';
 
-	import { page } from '$app/stores';
+	import { navigating, page } from '$app/stores';
+
+	import NProgress from 'nprogress';
+	import 'nprogress/nprogress.css';
 
 	$: routeId = $page.route.id;
+
+	NProgress.configure({
+		minimum: 0.16
+	});
+
+	$: {
+		if ($navigating) {
+			NProgress.start();
+		}
+		if (!$navigating) {
+			NProgress.done();
+		}
+	}
 </script>
 
 <div
@@ -15,7 +31,7 @@
 		</a>
 	</div>
 	<div class="flex flex-row">
-		<div class="ml-5 flex flex-row gap-3 text-xl">
+		<div class="ml-5 flex flex-row gap-3 text-lg md:text-xl">
 			<a href="/">
 				<p class:active={routeId === '/'} class="text-slate-300 transition-all hover:text-slate-50">
 					Home
