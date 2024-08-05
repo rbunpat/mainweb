@@ -74,7 +74,7 @@
 				title="Jiwwongrapher Store"
 				description="Jiwwongrapher's web store for selling digital pictures"
 				techStack={['svelte', 'typescript', 'tailwindcss', 'postgrtesql', 'prisma', 'cloudflare']}
-				liveLink="https://jiw-prod.rachatat.com/"
+				liveLink="https://store.jiwwong.media/"
 			/>
 
 			<ProjectCard
