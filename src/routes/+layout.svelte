@@ -38,14 +38,6 @@
 					Home
 				</p>
 			</a>
-			<a href="/blog">
-				<p
-					class:active={routeId === '/blog'}
-					class="text-slate-300 transition-all hover:text-slate-50"
-				>
-					Blog
-				</p>
-			</a>
 			<a href="/contact">
 				<p
 					class:active={routeId === '/contact'}
